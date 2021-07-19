@@ -4,7 +4,7 @@
   left:0;
   width: 100%;
   height:100px;
-  background:white;
+  background:seashell;
   font-family: 'Ballinger Mono';
 }
 
@@ -18,7 +18,7 @@
 .Navbar__logo a {
   font-weight: bolder;
   font-size: 1.5rem;
-  padding-left: 2rem;
+  padding-left: 3rem;
   text-decoration: none;
   color: black;
 }
@@ -47,6 +47,16 @@
 .Navbar__spacer {
   flex: 1;
 
+}
+
+.Navbar__logo a:hover,
+.Navbar__logo a:active {
+  color:orangered
+}
+
+.Navbar__logo-semicolon:hover,
+.Navbar__logo-semicolon:active {
+  color:black
 }
 
 .Navbar__navigation-items a:hover,

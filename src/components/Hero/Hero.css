@@ -1,0 +1,18 @@
+.Hero {
+  position:initial;
+  padding-top: 15rem;
+  height: 90%;
+  font-family: "Ballinger Mono";
+  font-weight:lighter;
+}
+
+.Hero__header {
+  color:black;
+  font-size: 60pt;
+  padding-left: 4rem;
+  padding-right: 30rem;
+}
+
+.Hero__header-kyle-davis {
+  text-decoration: underline;
+}
